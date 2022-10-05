@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+body{
+   font-family: "Ubuntu",sans-serif;
+    margin: 0px;
+    padding:0px;
+    background-image:url(https://enelmundo.org/wp-content/uploads/2021/11/security-ge6919a77c_1280.jpg);
+    background-size: cover;
+    
+}
+.container {
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    
+
+}
+.logo{
+    
+    width: 100%;
+    float: left;
+    
+    
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+   
+}
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    
+}
+.left-buttom{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    
+}
+.logoimg{
+    
+    width: 7%;
+    border-radius: 5px;
+    margin-top: 1%;
+    float: inherit;
+    margin-left: 5%;
+}
+.title{
+    -webkit-text-stroke: 2px black;
+    
+    font-size:40px;
+    
+    color: #4872BC;
+    float: inherit;
+    margin-left: 20%;
+}
+
+.text-input{
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    
+    border-style: solid ;
+    background-color: transparent;
+    
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #D8DFE8;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    transition: .5s ease;
+    
+}
+.text-input:hover{
+    -webkit-text-stroke: 0.5px #0A3871;
+    font-size: 22px;
+    
+    color:black ;
+    transition: 5s;
+    background-color:#4872BC;
+    border-radius: 10px;
+    opacity: 90%;
+    
+    
+}
+
+
+
+.muneco{
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+p{
+    color: #D8DFE8;
+}
+.texto1{
+    margin-left:7% ;
+    margin-right: 5%;
+}
+.texto2{
+    float: left;
+    margin-left: 10%;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.btn-encriptar{
+   color: #D8DFE8;
+   padding: 12px;
+   width: 190px;
+   
+   border-radius: 10px;
+   transition: .5s ease;
+   background:#0A3871;
+   cursor: pointer;
+}
+.btn-encriptar:hover{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #799be6 inset,
+                0 0 10px 4 #799be6;
+    border-radius: 10px;
+    color: black;
+}
+
+.btn-desencriptar{
+    padding: 12px;
+    width: 190px;
+    /*height: 60%;*/
+    border-radius: 10px;
+    /*margin-left: 10%;*/
+    transition: .5s ease;
+    background:#D8DFE8;
+    cursor: pointer;
+} 
+.btn-desencriptar:hover{
+    background-color: #0A3871;
+    
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #799be6 inset,
+                0 0 10px 4 #799be6;
+    border-radius: 10px;
+    color:#D8DFE8;
+}
+.copiar{
+    
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+    cursor:pointer;
+}
+.mensaje{
+    
+    -webkit-text-stroke: 2px black;
+    color: #4872BC;
+    display: none;
+}
+.ocultar{
+    display: none;
+}
+.desocultar{
+    display: flex;
+}
+.container-footer {
+    align-items: center;
+    color: var(--darkblue);
+    display: flex;
+    font-size: 18px;
+    line-height: 19px;
+    gap: 10px;
+    justify-content: center;
+    background-color:#C94ED7;
+    opacity: 70%;
+    
+}
+
+.container-footer a {
+    margin-bottom: 5px;
+}
+/*footer {
+    width: 100%;
+    
+   
+   
+    text-align: center;
+    display:flex;
+    
+    align-items: center;
+    gap: 8px;
+    
+}
+.pie{
+    color: black;
+    text-shadow:white;
+/*-webkit-text-stroke: 1px #799be6;*/
+
+
+
